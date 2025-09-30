@@ -14,6 +14,11 @@ export default function Header() {
           onPress={() => {
             <Text>Hello</Text>;
           }}></Button>
+        <Button
+          title="Hello"
+          onPress={() => {
+            console.log("hello");
+          }}></Button>
       </View>
     </View>
   );
